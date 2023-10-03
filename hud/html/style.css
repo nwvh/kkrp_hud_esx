@@ -6,7 +6,7 @@
 
 #hud {
     position: absolute;
-    bottom: 0.25%;
+    bottom: 0.2%;
     left: 1.5%;
     width: 20%;
 }
@@ -18,7 +18,7 @@
 
 .bar {
     float: left;
-    width: 40px;
+    width: 35px;
     height: 35px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -82,7 +82,7 @@
 }
 
 .active {
-    color: #ff5f5f !important;
+    color: #FFC45F !important;
 }
 
 .ui {
