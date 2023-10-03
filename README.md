@@ -1,2 +1,2 @@
-# kkrp_hud_esx
-HUD from publicly available framework for KKRP 3.0
+#  I don't take any credits for any of the work made for this fork!
+All credits go to the original authors and developers of the https://github.com/Trsak/CoolFivemFramework/ !
