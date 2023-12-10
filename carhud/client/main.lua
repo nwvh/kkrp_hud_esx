@@ -120,7 +120,7 @@ function createCycle()
         return
     end
 
-    local hasOpenedPauseMenu, vehFuel, vehSpeed = false, 0.0, 0.0
+    local hasOpenedPauseMenu, vehFuel, vehSpeed = false, math.floor(GetVehicleFuelLevel(playerVeh)+0.5), 0.0
     lastVeh, isOpened = playerVeh, true
 
     SendNUIMessage({
@@ -172,7 +172,7 @@ function createCycle()
     Citizen.CreateThread(function()
         local hiddenHud = true
         while playerVeh ~= 0 do
-            vehFuel = 100.0
+            vehFuel = math.floor(GetVehicleFuelLevel(playerVeh)+0.5)
             hasOpenedPauseMenu = IsPauseMenuActive()
             if hasOpenedPauseMenu and not hiddenHud then
                 hiddenHud = true
